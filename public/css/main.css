@@ -1,36 +1,19 @@
-body {
-    background-color: #2a2b2f; 
-    display: flex; 
-    flex-direction: column;
-    justify-content: center; 
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
-    color: #fff;
-    text-align:center;
-}
+gmgn_hunter/
+├── app.py
+├── checks.py
+├── requirements.txt
+├── .env.example
+└── .gitignore
+Flask==2.3.3
+requests==2.31.0
+python-dotenv==1.1.1
+web3==6.2.0
+.env
+__pycache__/
+*.pyc
+# Copy this to .env and fill your credentials
 
-.mona-images {
-    max-width: 400px;
-    max-height: 400px;
-    border: 8px solid #fff;
-}
-
-.haiku-containers {
-    padding: 10px 0px 20px 0px;
-}
-
-.haikus {
-    font-size: 18px;
-    white-space: pre-wrap;
-}
-
-@media only screen and (max-width: 600px) {
-    .june-images {
-        max-width: 340px;
-        max-height: 340px;
-    }
-
-    .haikus {
-        font-size: 22px;
-    }
-}
+BSC_RPC=https://bsc-dataseed.binance.org/
+TELEGRAM_BOT_TOKEN=7924891494
+TELEGRAM_CHAT_ID=6828578570
+MIN_LP_USD=500
